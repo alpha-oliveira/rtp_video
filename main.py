@@ -49,6 +49,7 @@ def to_statusbar(msg):
 if __name__ == "__main__":
     _root = Tk()
     _root.title('RTP Video')
+    _root.iconbitmap('favicon.ico')
 
     # mainframe
     _mainframe = ttk.Frame(_root, padding='5 5 5 5')
